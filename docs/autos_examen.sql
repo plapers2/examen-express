@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `autos` (
-  `placa_vechiculo` varchar(50) NOT NULL,
+  `placa_vehiculo` varchar(50) NOT NULL,
   `descripcion` varchar(255) NOT NULL,
   `cilindraje` int(11) NOT NULL,
   `marca` text NOT NULL,
@@ -46,7 +46,7 @@ CREATE TABLE `autos` (
 -- Indices de la tabla `autos`
 --
 ALTER TABLE `autos`
-  ADD PRIMARY KEY (`placa_vechiculo`);
+  ADD PRIMARY KEY (`placa_vehiculo`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
